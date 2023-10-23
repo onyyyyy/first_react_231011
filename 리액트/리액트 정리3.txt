@@ -1,0 +1,9 @@
+20231019
+npm 사이트 -> styled-reset 
+들고와서 터미널 켜서 설치 후 
+package json 들어가서 설치확인
+
+src에 GlobalStyled 폴더 생성 (어차피 style reset 되야하닌까 상위 폴더에 설치 후 불러오기)
+
+&:hover
+=>&는 자기자신(변수설정된)을 한번더 선택할때에 사용함

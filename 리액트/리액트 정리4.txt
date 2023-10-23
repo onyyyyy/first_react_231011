@@ -1,0 +1,7 @@
+231023
+현재의 파일을 기록하고 저장하고 싶을때
+git add (무대) -> git commit -m "기록하고 싶은 파일명" (기록) -> git push (github 업로드) 
+
+*git 명령어
+1. 
+git init .

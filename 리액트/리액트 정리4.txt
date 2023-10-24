@@ -1,7 +1,38 @@
 231023
 현재의 파일을 기록하고 저장하고 싶을때
-git add (무대) -> git commit -m "기록하고 싶은 파일명" (기록) -> git push (github 업로드) 
+git add + 파일명 (무대, 스테이징) -> git commit -m "기록하고 싶은 메모" (기록) -> git push (github 업로드) 
 
 *git 명령어
-1. 
-git init .
+
+0. 유저 등록
+git config --global user.name "깃허브 닉네임"
+git config --global user.email "깃허브 이메일"
+
+--->딱한번 깃허브 설치하고 한번만 하면됨
+
+1.초기화
+git init . => 깃허브 초기화
+
+2.스테이지
+git add . => 현 시점 기준 전부 스테이징에 올림
+
+3.기록
+git commit -m "입력하고 싶은 메세지 입력"
+
+4.저장소 생성
+깃허브에 가서 저장소 생성하기
+저장소명, 내용(옵션사항), public(공용)
+
+5.저장소 url 주소복사
+=>vscode 터미널에서 
+git remote add origin 저장소 주소복사
+
+
+6.저장소 업로드
+=>git push origin master(또는 main)
+
+npm 설치시 @latest => 최신버전
+
+
+
+

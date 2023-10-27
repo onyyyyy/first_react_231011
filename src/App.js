@@ -8,7 +8,10 @@ import { Ex05 } from "./components/ex05/Ex05";
 import { Ex06 } from "./components/ex06/Ex06";
 import { Ex07 } from "./components/ex07/Ex07";
 import { Ex09 } from "./components/ex09/Ex09";
-import { Ex10 } from "./ex10/Ex10";
+// import { Ex10 } from "./components/ex10/Ex10";
+import { Ex11 } from "./components/ex11/Ex11";
+import { Ex12 } from "./components/ex12/Ex12";
+import { Ex12_1 } from "./components/ex12_1/Ex12_1";
 
 const App = () => {
   return (
@@ -42,7 +45,14 @@ const App = () => {
       {/* <Ex09 /> */}
       {/* 9일차 */}
 
-      <Ex10 />
+      {/* <Ex10 /> */}
+      {/* 10일차 */}
+
+      {/* <Ex11 /> */}
+      {/* 11일차 */}
+
+      {/* <Ex12 /> */}
+      <Ex12_1 />
     </div>
   );
 };

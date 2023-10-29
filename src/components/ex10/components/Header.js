@@ -1,8 +1,8 @@
 import { faAngleDown, faBars } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
-import { colors } from "../../GlobalStyled";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
+import { colors } from "../../../GlobalStyled";
 
 const SHeader = styled.header`
   display: flex;

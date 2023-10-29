@@ -1,7 +1,7 @@
 import { faForwardStep } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
-import { colors } from "../../GlobalStyled";
+import { colors } from "../../../GlobalStyled";
 
 const SUserCon = styled.div`
   padding: 20px;

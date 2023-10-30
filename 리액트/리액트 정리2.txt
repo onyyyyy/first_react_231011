@@ -41,3 +41,6 @@ props함수를 스타일 안에 사용할 수 없으니
 `background-color: ${(props) => props.bgColor};`
 
 20231018
+
+request 요청
+respon 응답

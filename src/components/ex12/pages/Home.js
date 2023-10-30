@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { PageTitle } from "../../ex11/components/PageTitle";
+import { data } from "../api";
 
 const Banner = styled.section`
   height: 80vh;
@@ -14,7 +16,8 @@ const Section = styled.section`
 const Con = styled.section`
   width: 45%;
   height: 500px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  background: url(${(props) => props.$url}) no-repeat center / cover;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
   transition: 0.5s;
   &:hover {
@@ -31,13 +34,14 @@ const Con = styled.section`
 export const Home = () => {
   return (
     <div>
+      <PageTitle name={"Home"} />
       <Banner></Banner>
       <Section>
-        <Con>
-          <Link to={"/sub01"}></Link>
+        <Con $url={data[0].img}>
+          <Link to={"/sub/0"}></Link>
         </Con>
-        <Con>
-          <Link to={"/sub02"}></Link>
+        <Con $url={data[1].img}>
+          <Link to={"/sub/1"}></Link>
         </Con>
       </Section>
     </div>

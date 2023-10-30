@@ -31,10 +31,10 @@ export const Header = () => {
 
       <SPage>
         <li>
-          <Link to={"/Sub01"}>SUB01</Link>
+          <Link to={"/sub/0"}>SUB01</Link>
         </li>
         <li>
-          <Link to={"/Sub02"}>SUB02</Link>
+          <Link to={"/sub/1"}>SUB02</Link>
         </li>
       </SPage>
     </Sheader>
